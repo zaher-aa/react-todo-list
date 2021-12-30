@@ -1,0 +1,15 @@
+.edit-status {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  background-color: #f6d366;
+  color: #333;
+  padding: 0.25rem 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
