@@ -26,8 +26,8 @@ const Form = (props) => {
   const statusHandler = (e) => setStatus(e.target.value);
 
   return (
-    <div>
-      <form>
+    <form>
+      <div className="input-task">
         <input
           onInput={todoTxtHandler}
           value={todoTxt}
@@ -37,15 +37,15 @@ const Form = (props) => {
         <button onClick={addTask} className="todo-button" type="submit">
           <i className="fas fa-plus-square"></i>
         </button>
-        <div className="select">
-          <select onChange={statusHandler} name="todos" className="filter-todo">
-            <option value="all">All</option>
-            <option value="completed">Completed</option>
-            <option value="uncompleted">Uncompleted</option>
-          </select>
-        </div>
-      </form>
-    </div>
+      </div>
+      <div className="select">
+        <select onChange={statusHandler} name="todos" className="filter-todo">
+          <option value="all">All</option>
+          <option value="completed">Completed</option>
+          <option value="uncompleted">Uncompleted</option>
+        </select>
+      </div>
+    </form>
   );
 };
 

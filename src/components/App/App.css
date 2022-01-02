@@ -4,11 +4,15 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
 body {
   background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
   color: white;
-  min-height: 100vh;
 }
-header {
-  font-size: 2rem;
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
 }

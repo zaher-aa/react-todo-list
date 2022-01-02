@@ -1,5 +1,6 @@
 .edit-status {
-  position: absolute;
+  position: fixed;
+  z-index: 999;
   right: 20px;
   bottom: 20px;
   background-color: #f6d366;
